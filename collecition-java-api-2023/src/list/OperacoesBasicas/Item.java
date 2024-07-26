@@ -1,4 +1,4 @@
-package list.OperacoesBasicas;
+package list.operacoesbasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,6 +61,7 @@ public class Item {
        carrinhoCompras.adicionarItem("Caneta", 1.50, 5);
        carrinhoCompras.adicionarItem("Camisa", 40.50, 10);
        carrinhoCompras.adicionarItem("Camisa", 40.50, 5);
+       carrinhoCompras.adicionarItem("Shorte", 40.50, 10);
     
        carrinhoCompras.removerItem("Camisa");
 
